@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="BeEngineer 1年目（Aコース）の魅力を伝えるランディングページ。HTML・CSS・PythonからDjangoまで、初心者でも本物の開発を体験。" />
+    <title>BeEngineer 1年目（Aコース）｜中高生が1年でここまで作る</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Hero / First View -->
+    <section class="hero" id="top">
+      <div class="hero__decor"></div>
+      <div class="container hero__inner" data-aos="fade-up">
+        <h1 class="hero__title">中高生が1年でここまで作る</h1>
+        <p class="hero__subtitle">HTML・CSS・PythonからDjangoまで。本物の開発を、はじめから。</p>
+        <div class="hero__actions">
+          <a href="#apps" class="btn btn--primary">授業で作れるアプリを見る</a>
+          <a class="btn btn--ghost" href="https://be-engineer.tech/" target="_blank" rel="noopener noreferrer">BeEngineerトップページへ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="section">
+      <div class="container">
+        <h2 class="section__title" data-aos="fade-up">1年目（Aコース）の学び</h2>
+
+        <div class="timeline">
+          <div class="timeline__item" data-aos="fade-right">
+            <div class="timeline__term">1学期</div>
+            <div class="timeline__content">
+              <h3 class="timeline__heading">HTML・CSS・Python基礎</h3>
+              <p class="timeline__text">フロントエンドとプログラミングの基礎を実践的に学びます。</p>
+            </div>
+          </div>
+
+          <div class="timeline__item" data-aos="fade-right" data-aos-delay="100">
+            <div class="timeline__term">2学期</div>
+            <div class="timeline__content">
+              <h3 class="timeline__heading">Git入門・Django入門・「投票アプリ」「掲示板アプリ」開発</h3>
+              <p class="timeline__text">学期冒頭でGit運用を習得し、その後Python製WebフレームワークDjangoで本格的なWebアプリを構築。データベース連携や投稿機能を実装し、投票/掲示板を完成させます。</p>
+            </div>
+          </div>
+
+          <div class="timeline__item" data-aos="fade-right" data-aos-delay="200">
+            <div class="timeline__term">3学期</div>
+            <div class="timeline__content">
+              <h3 class="timeline__heading">「チャットアプリ」開発</h3>
+              <p class="timeline__text">リアルタイム通信やユーザー認証など、実サービスに近い機能を開発します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apps -->
+    <section id="apps" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title" data-aos="fade-up">授業で作れる本格アプリ</h2>
+
+        <div class="cards" data-aos="fade-up" data-aos-delay="50">
+          <!-- Polls App -->
+          <article class="card">
+            <a href="https://polls-app-ezw4.onrender.com" target="_blank" rel="noopener noreferrer" class="card__linkarea">
+              <div class="card__thumb" aria-hidden="true">
+                <!-- Polls icon: clipboard + check + bars -->
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="card__icon">
+                  <rect x="5" y="4" width="14" height="16" rx="2.2" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.9"/>
+                  <rect x="9" y="2.5" width="6" height="3" rx="1.2" fill="currentColor" opacity="0.85"/>
+                  <path d="M8 11l2.2 2.2L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <rect x="7" y="15" width="3" height="4" rx="1" fill="currentColor" opacity="0.9"/>
+                  <rect x="11.5" y="14" width="3" height="5" rx="1" fill="currentColor" opacity="0.7"/>
+                  <rect x="16" y="13" width="3" height="6" rx="1" fill="currentColor" opacity="0.5"/>
+                </svg>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">投票アプリ</h3>
+                <p class="card__desc">用意された選択肢から1つを投票すると、全体の票数結果が即時に表示される集計アプリ</p>
+                <span class="card__cta">アプリを見る →</span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Forum App -->
+          <article class="card">
+            <a href="https://forum-app-xk7w.onrender.com" target="_blank" rel="noopener noreferrer" class="card__linkarea">
+              <div class="card__thumb" aria-hidden="true">
+                <!-- Forum icon: stacked boards + lines -->
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="card__icon">
+                  <rect x="3" y="5" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.9"/>
+                  <rect x="5" y="7" width="12" height="2" rx="1" fill="currentColor" opacity="0.8"/>
+                  <rect x="5" y="10.5" width="8.5" height="2" rx="1" fill="currentColor" opacity="0.6"/>
+                  <rect x="4" y="3" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.2" fill="none" opacity="0.3"/>
+                </svg>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">掲示板アプリ</h3>
+                <p class="card__desc">トピックごとに分かれた掲示板で、登録不要・ログインなしで匿名投稿できるアプリ</p>
+                <span class="card__cta">アプリを見る →</span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Chat App -->
+          <article class="card">
+            <a href="https://white-hacker-app.onrender.com" target="_blank" rel="noopener noreferrer" class="card__linkarea">
+              <div class="card__thumb" aria-hidden="true">
+                <!-- Chat icon: two bubbles with typing dots -->
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="card__icon">
+                  <path d="M4.5 5.5A2.5 2.5 0 0 1 7 3h9a2.5 2.5 0 0 1 2.5 2.5v5A2.5 2.5 0 0 1 16 13H9l-4 3.5V5.5Z" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.18"/>
+                  <path d="M12 14.5h4.5a2 2 0 0 0 2-2v-1.2" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+                  <circle cx="8.5" cy="8.5" r="1.1" fill="currentColor"/>
+                  <circle cx="11.5" cy="8.5" r="1.1" fill="currentColor" opacity="0.85"/>
+                  <circle cx="14.5" cy="8.5" r="1.1" fill="currentColor" opacity="0.7"/>
+                </svg>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">チャットアプリ</h3>
+                <p class="card__desc">アカウント作成・ログイン、友達一覧、チャット機能を備えたコミュニケーションアプリ</p>
+                <span class="card__cta">アプリを見る →</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Growth -->
+    <section id="growth" class="section">
+      <div class="container">
+        <h2 class="section__title" data-aos="fade-up">初心者から本格開発者へ</h2>
+        <p class="lead" data-aos="fade-up" data-aos-delay="60">
+          プログラミング未経験から、たった数ヶ月で公開できるアプリを開発。学ぶだけでなく、成果物をインターネット上に公開する経験ができます。
+        </p>
+
+        <div class="growth" >
+          <div class="growth__code" data-aos="fade-right">
+            <pre class="codeblock"><code>
+# Django: 投票結果ビューの一例
+from django.shortcuts import render, get_object_or_404
+from .models import Question
+
+def results(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    context = {"question": question, "choices": question.choice_set.all()}
+    return render(request, "polls/results.html", context)
+            </code></pre>
+          </div>
+          <div class="growth__mock" data-aos="fade-left" data-aos-delay="80">
+            <div class="device">
+              <div class="device__screen">
+                <div class="ui">
+                  <div class="ui__header">投票：好きな果物は？</div>
+                  <ul class="results">
+                    <li><span class="results__label">バナナ</span><span class="results__count">3 票</span></li>
+                    <li><span class="results__label">りんご</span><span class="results__count">1 票</span></li>
+                    <li><span class="results__label">みかん</span><span class="results__count">0 票</span></li>
+                  </ul>
+                  <button class="btn btn--primary btn--block">結果を再読み込み</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta__inner" data-aos="fade-up">
+          <h2 class="cta__title">あなたのお子様も、本物の開発を体験しませんか？</h2>
+          <a class="btn btn--primary btn--lg" href="https://be-engineer.tech/" target="_blank" rel="noopener noreferrer">詳しく見る</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© <span id="year"></span> BeEngineer</span>
+        <a href="#top" class="to-top">TOPへ戻る</a>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
+
